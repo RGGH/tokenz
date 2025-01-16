@@ -233,7 +233,7 @@
                           ]
                         },
                         "val": {
-                          "string": "Token"
+                          "string": "mofocoin"
                         }
                       },
                       {
@@ -245,7 +245,7 @@
                           ]
                         },
                         "val": {
-                          "string": "Token"
+                          "string": "MFC"
                         }
                       }
                     ]

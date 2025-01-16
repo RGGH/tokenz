@@ -11,8 +11,8 @@ fn test_minting() {
     let alex = Address::from_str(&env,"GAUSBA6IHKK63ZPCLNQJQ332OFIETXOFSTK7AI7YTKR3M7EPTW7CLR5H");
     let bart = Address::from_str(&env,"GBFAIH5WKAJQ77NG6BZG7TGVGXHPX4SQLIJ7BENJMCVCZSUZPSISCLU5");
 
-    let symbol = String::from_str(&env, "Token");
-    let token = String::from_str(&env, "Token");
+    let symbol = String::from_str(&env, "MFC");
+    let token = String::from_str(&env, "mofocoin");
 
     let contract_id = env.register(TokenContract, ());
     let client = TokenContractClient::new(&env, &contract_id);
