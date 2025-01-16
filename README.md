@@ -33,12 +33,12 @@ Smallest unit: 0.000000000000000001
 ```
 
 
-How to Choose
+#### How to Choose
 Consider these factors when selecting decimals:
-Use case of your token
-Industry standards
-Gas efficiency (smaller decimals = less computation)
-User experience requirements
+-Use case of your token
+-Industry standards
+-Gas efficiency (smaller decimals = less computation)
+-User experience requirements
 
 Example Code with Different Decimals
 ```// For a whole number token
