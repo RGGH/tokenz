@@ -17,17 +17,20 @@ It represents the number of decimal places that your token can be divided into.
 ```
 
 Examples with Different Decimals
-Decimal: 2
+```Decimal: 2
 1 token = 100 base units
 Smallest unit: 0.01
+```
 
-Decimal: 7 (XLM standard)
+```Decimal: 7 (XLM standard)
 1 token = 10,000,000 base units
 Smallest unit: 0.0000001
+```
 
-Decimal: 18 (Your current setting)
+```Decimal: 18 (Your current setting)
 1 token = 1,000,000,000,000,000,000 base units
 Smallest unit: 0.000000000000000001
+```
 
 
 How to Choose
@@ -38,12 +41,13 @@ Gas efficiency (smaller decimals = less computation)
 User experience requirements
 
 Example Code with Different Decimals
-// For a whole number token
+```// For a whole number token
 client.initialize(&admin, &0, &symbol, &token);
+```
 
-// For an XLM-like token
+```// For an XLM-like token
 client.initialize(&admin, &7, &symbol, &token);
-
+```
 // For a stablecoin-like token
 client.initialize(&admin, &6, &symbol, &token);
 
