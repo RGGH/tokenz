@@ -48,8 +48,9 @@ client.initialize(&admin, &0, &symbol, &token);
 ```// For an XLM-like token
 client.initialize(&admin, &7, &symbol, &token);
 ```
-// For a stablecoin-like token
+```// For a stablecoin-like token
 client.initialize(&admin, &6, &symbol, &token);
+```
 
 
 Important Notes:
