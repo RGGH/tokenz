@@ -4,15 +4,17 @@ Test uses : Use env.mock_all_auths() for simple testing (allows all auth)
 
 ![image](https://github.com/user-attachments/assets/0649f288-75a7-42e3-a174-33efd5e66668)
 
-Understanding Token Decimals in Soroban
-The decimal value (18 in your code) determines the divisibility of your token. It represents the number of decimal places that your token can be divided into.
+### Understanding Token Decimals in Soroban
+The decimal value (18 in your code) determines the divisibility of your token. 
+It represents the number of decimal places that your token can be divided into.
 
-Common Decimal Values
+```Common Decimal Values
 0 - No decimals (whole numbers only)
 6 - Common for stablecoins (like USDC)
 7 - Native XLM decimal places
 8 - Common for Bitcoin-like tokens
 18 - Common for Ethereum-like tokens
+```
 
 Examples with Different Decimals
 Decimal: 2
