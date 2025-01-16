@@ -3,6 +3,10 @@
 Test uses : Use env.mock_all_auths() for simple testing (allows all auth)
 
 ![image](https://github.com/user-attachments/assets/0649f288-75a7-42e3-a174-33efd5e66668)
+---
+
+![image](https://github.com/user-attachments/assets/0e70065c-429a-4b11-a320-dcbda792a792)
+
 
 ### Understanding Token Decimals in Soroban
 The decimal value (18 in your code) determines the divisibility of your token. 
